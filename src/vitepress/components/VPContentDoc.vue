@@ -15,7 +15,14 @@ const repoUrl = computed(() => {
   const repo = theme.value.editLink?.repo || 'vuejs/docs'
   const branch = repo.match(hashMatch)?.[1] || 'main'
   const repoName = repo.match(hashMatch) ? repo.split('#')[0] : repo
-  return `https://github.com/${repoName}/edit/${branch}/src/${page.value.relativePath}`
+
+  let dir = theme.value.editLink?.dir || ''
+
+  if (dir) {
+    dir = '/'+dir.replace(/^\//, '').replace(/\/$/, '')
+  }
+
+  return `https://github.com/${repoName}/edit/${branch}${dir}/src/${page.value.relativePath}`
 })
 
 const pageClass = computed(() => {
