@@ -14,7 +14,8 @@ const hashMatch = /#([\w\.\-]+)$/
 const repoUrl = computed(() => {
   const repo = theme.value.editLink?.repo || 'vuejs/docs'
   const branch = repo.match(hashMatch)?.[1] || 'main'
-  return `https://github.com/${repo}/edit/${branch}/src/${page.value.relativePath}`
+  const repoName = repo.match(hashMatch) ? repo.split('#')[0] : repo
+  return `https://github.com/${repoName}/edit/${branch}/src/${page.value.relativePath}`
 })
 
 const pageClass = computed(() => {
