@@ -1,16 +1,20 @@
 <template>
   <a class="VPNavBarTitle" href="/">
-    <svg class="logo" viewBox="0 0 128 128" width="24" height="24">
-      <path
-        fill="#42b883"
-        d="M78.8,10L64,35.4L49.2,10H0l64,110l64-110C128,10,78.8,10,78.8,10z"
-      />
-      <path
-        fill="#35495e"
-        d="M78.8,10L64,35.4L49.2,10H25.6L64,76l38.4-66H78.8z"
-      />
+    <svg width="100%" height="100%" viewBox="0 0 131 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g>
+                <g>
+                    <g>
+                        <polygon id="Rectangle-Copy-3" fill-opacity="0.882189764" fill="#5477F8" points="0.181818182 33 64 65 64 131 0 98.8181818"></polygon>
+                        <polygon id="Rectangle" fill="#A4C4FA" opacity="0.6" points="64 64.9393382 126 32 126 98.0606618 64 131"></polygon>
+                        <polygon id="Rectangle-Copy" fill="#F5F5F5" points="33 48.9393382 95 16 95 82.0606618 33 115"></polygon>
+                        <polygon id="Rectangle-Copy-2" fill-opacity="0.882189764" fill="#5477F8" points="0.181818182 33.2422018 64 0 64 65.9394495 0 99"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
     </svg>
-    <span class="text">Vue.js</span>
+    <span class="text">EasyWeChat</span>
   </a>
 </template>
 

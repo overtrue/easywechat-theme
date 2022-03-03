@@ -1,7 +1,7 @@
 {
-  "name": "@vue/theme",
-  "version": "1.0.1",
-  "description": "The design system for Vue.js.",
+  "name": "@overtrue/easywechat-theme",
+  "version": "1.0.0",
+  "description": "Theme for easywechat.com based on @vuejs/theme",
   "main": "src/index.ts",
   "exports": {
     ".": "./src/index.ts",
@@ -14,17 +14,17 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/theme.git"
+    "url": "git+https://github.com/w7corp/theme.git"
   },
   "keywords": [
     "vue",
     "design-system"
   ],
-  "author": "Evan You",
+  "author": "overtrue",
   "license": "MIT",
-  "homepage": "https://theme.vuejs.org",
+  "homepage": "https://easywechat.com",
   "bugs": {
-    "url": "https://github.com/vuejs/theme/issues"
+    "url": "https://github.com/w7corp/theme/issues"
   },
   "scripts": {
     "lint": "prettier --check --write --parser typescript \"{__tests__,docs,src,types}/**/*.ts\"",
