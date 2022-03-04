@@ -1,6 +1,6 @@
 {
   "name": "@overtrue/easywechat-theme",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Theme for easywechat.com based on @vuejs/theme",
   "main": "src/index.ts",
   "exports": {
